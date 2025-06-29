@@ -8,6 +8,6 @@ export default defineConfig({
     RubyPlugin(),
   ],
   server: {
-    origin: 'http://localhost:3000', // 👈 this is the key to fix preamble issue
+    origin: 'http://localhost:3000',
   },
 })

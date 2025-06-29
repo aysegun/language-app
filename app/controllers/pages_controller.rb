@@ -1,9 +1,7 @@
 class PagesController < ApplicationController
-  def react_home
-    render html: "", layout: "application"
+  def home
   end
 
-  def react_lesson
-    render html: "", layout: "application"
+  def lesson
   end
 end
