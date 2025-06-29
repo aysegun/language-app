@@ -6,7 +6,7 @@ const Home = () => {
     <div className="home-page">
       <h1 style={{ fontSize: "2rem", color: "#9b5de5" }}>Welcome!</h1>
       <img
-        src="/images/unicorn.png"
+        src="/images/unicorn.jpg"
         alt="unicorn"
         style={{ width: "200px", margin: "20px" }}
       />
