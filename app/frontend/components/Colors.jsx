@@ -1,6 +1,6 @@
 import React from "react";
 import AudioButton from "./AudioButton";
-import "./Colors.css";
+import "./styles/Colors.css";
 
 const colors = [
   { label: "Rojo", audioSrc: "/audio/colors/red.mp3" },
@@ -11,6 +11,7 @@ const colors = [
 const Colors = () => {
   return (
     <div className="colors-page">
+      <h1 style={{color: "red", fontSize: "3rem"}}>React Colors Page Mounted</h1>
       <h2 className="colors-heading">Spanish Colors</h2>
       <div className="colors-grid">
         {colors.map((color, index) => (
