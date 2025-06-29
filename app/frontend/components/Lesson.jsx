@@ -26,6 +26,7 @@ const numbers = [
   { value: 20, label: "veinte", audio: "/audio/20.mp3" },
 ];
 
+
 const Lesson = () => {
   const playAudio = (src) => {
     new Audio(src).play();

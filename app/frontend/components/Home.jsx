@@ -5,12 +5,7 @@ import "./Home.css";
 const Home = () => {
   return (
     <div className="home-page">
-      <h1 className="home-heading">Welcome!</h1>
-      <img
-        className="home-image"
-        src="/images/unicorn.jpg"
-        alt="unicorn"
-      />
+      <h1 className="home-heading">Welcome Aylin!</h1>
       <a href="/lesson">
         <button className="home-button">
           Start
