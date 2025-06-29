@@ -1,5 +1,6 @@
 // app/frontend/components/Lesson.jsx
 import React from "react";
+import "./Lesson.css";
 
 const numbers = [
   { value: 0, label: "zero", audio: "/audio/0.mp3" },
@@ -23,7 +24,6 @@ const numbers = [
   { value: 18, label: "dieciocho", audio: "/audio/18.mp3" },
   { value: 19, label: "diecinueve", audio: "/audio/19.mp3" },
   { value: 20, label: "veinte", audio: "/audio/20.mp3" },
-
 ];
 
 const Lesson = () => {
@@ -33,41 +33,20 @@ const Lesson = () => {
 
   return (
     <div className="lesson-page">
-      <h2 style={{ color: "#00bbf9" }}>Spanish Numbers 1–20</h2>
-      <div style={{ display: "flex", flexWrap: "wrap", gap: "1rem" }}>
+      <h2 className="lesson-heading">Spanish Numbers 1–20</h2>
+      <div className="numbers-grid">
         {numbers.map((num) => (
           <button
             key={num.value}
             onClick={() => playAudio(num.audio)}
-            style={{
-              padding: "1rem",
-              fontSize: "1.5rem",
-              backgroundColor: "#00f5d4",
-              border: "none",
-              borderRadius: "12px",
-              width: "80px",
-              height: "80px",
-              cursor: "pointer",
-            }}
+            className="number-button"
           >
             {num.value}
           </button>
         ))}
       </div>
       <a href="/">
-        <button
-          style={{
-            marginTop: "2rem",
-            backgroundColor: "#9b5de5",
-            color: "#fff",
-            padding: "0.75rem 1.5rem",
-            border: "none",
-            borderRadius: "12px",
-            fontSize: "1rem",
-          }}
-        >
-          Back to Home
-        </button>
+        <button className="back-button">Back to Home</button>
       </a>
     </div>
   );

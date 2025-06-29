@@ -1,0 +1,39 @@
+.lesson-page {
+  text-align: center;
+  padding: 2rem;
+}
+
+.lesson-heading {
+  color: #00bbf9;
+  margin-bottom: 1rem;
+}
+
+.numbers-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  justify-content: center;
+  margin-top: 1rem;
+}
+
+.number-button {
+  padding: 1rem;
+  font-size: 1.5rem;
+  background-color: #00f5d4;
+  border: none;
+  border-radius: 12px;
+  width: 80px;
+  height: 80px;
+  cursor: pointer;
+}
+
+.back-button {
+  margin-top: 2rem;
+  background-color: #9b5de5;
+  color: #fff;
+  padding: 0.75rem 1.5rem;
+  border: none;
+  border-radius: 12px;
+  font-size: 1rem;
+  cursor: pointer;
+}

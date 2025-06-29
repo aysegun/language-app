@@ -1,27 +1,18 @@
 // app/frontend/components/Home.jsx
 import React from "react";
+import "./Home.css";
 
 const Home = () => {
   return (
     <div className="home-page">
-      <h1 style={{ fontSize: "2rem", color: "#9b5de5" }}>Welcome!</h1>
+      <h1 className="home-heading">Welcome!</h1>
       <img
+        className="home-image"
         src="/images/unicorn.jpg"
         alt="unicorn"
-        style={{ width: "200px", margin: "20px" }}
       />
       <a href="/lesson">
-        <button
-          style={{
-            padding: "1rem 2rem",
-            fontSize: "1.5rem",
-            backgroundColor: "#f15bb5",
-            color: "#fff",
-            border: "none",
-            borderRadius: "20px",
-            cursor: "pointer",
-          }}
-        >
+        <button className="home-button">
           Start
         </button>
       </a>
