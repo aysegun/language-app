@@ -43,7 +43,7 @@ const Lesson = () => {
       <a href="/">
         <button className="back-button">Back to Home</button>
       </a>
-      <a href="/">
+      <a href="/colors">
         <button className="next-button">Colors</button>
       </a>
     </div>

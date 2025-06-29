@@ -58,6 +58,24 @@
   transition: background-color 0.3s ease;
 }
 
+.next-button {
+  margin-top: 2rem;
+  margin-left: 2rem;
+  background-color: #ff6f91; /* a vibrant pinkish-red */
+  color: #fff;
+  padding: 0.75rem 1.5rem;
+  border: none;
+  border-radius: 12px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.next-button:hover {
+  background-color: #ff4a75; /* a deeper, stronger pink on hover */
+}
+
+
 .back-button:hover {
   background-color: #7a47c7;
 }
