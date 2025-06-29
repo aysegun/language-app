@@ -1,6 +1,6 @@
 // app/frontend/components/Home.jsx
 import React from "react";
-import "./Home.css";
+import "./styles/Home.css";
 
 const Home = () => {
   return (

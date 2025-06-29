@@ -5,4 +5,5 @@ Rails.application.routes.draw do
   # root "articles#index"
   root  to: 'pages#home'
   get 'lesson', to: 'pages#lesson'
+  get 'colors', to: 'pages#colors'
 end

@@ -4,4 +4,7 @@ class PagesController < ApplicationController
 
   def lesson
   end
+
+  def colors
+  end
 end
