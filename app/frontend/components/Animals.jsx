@@ -10,7 +10,7 @@ const animals = [
   { label: "Cerdo", audioSrc: "/audio/animals/cerdo.mp3", imageSrc: "/images/animals/cerdo.png" },
   { label: "Caballo", audioSrc: "/audio/animals/caballo.mp3", imageSrc: "/images/animals/caballo.png" },
   { label: "Oveja", audioSrc: "/audio/animals/oveja.mp3", imageSrc: "/images/animals/oveja.png" },
-  { label: "Pato", audioSrc: "/audio/animals/pato.mp3", imageSrc: "/images/animals/pato.png" },
+  { label: "Leon", audioSrc: "/audio/animals/pato.mp3", imageSrc: "/images/animals/leon.png" },
   { label: "Mono", audioSrc: "/audio/animals/mono.mp3", imageSrc: "/images/animals/mono.png" },
   { label: "Elefante", audioSrc: "/audio/animals/elefante.mp3", imageSrc: "/images/animals/elefante.png" },
 ];
