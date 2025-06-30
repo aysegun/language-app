@@ -1,6 +1,8 @@
 .animals-page {
   padding: 2rem;
   text-align: center;
+  background-color: #F2EBCC;
+  min-height: 100vh;
 }
 
 .animals-heading {

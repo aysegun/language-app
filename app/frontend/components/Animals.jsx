@@ -3,14 +3,14 @@ import AudioButton from "./AudioButton";
 import "./styles/Animals.css";
 
 const animals = [
-  { label: "Perro", audioSrc: "/audio/animals/perro.mp3", imageSrc: "/images/animals/perro.png" },
-  { label: "Gato", audioSrc: "/audio/animals/gato.mp3", imageSrc: "/images/animals/gato.png" },
+  { label: "Águila", audioSrc: "/audio/animals/aguila.mp3", imageSrc: "/images/animals/aguila.png" },
+  { label: "Conejo", audioSrc: "/audio/animals/conejo.mp3", imageSrc: "/images/animals/conejo.png" },
   { label: "Pájaro", audioSrc: "/audio/animals/pajaro.mp3", imageSrc: "/images/animals/pajaro.png" },
   { label: "Vaca", audioSrc: "/audio/animals/vaca.mp3", imageSrc: "/images/animals/vaca.png" },
   { label: "Cerdo", audioSrc: "/audio/animals/cerdo.mp3", imageSrc: "/images/animals/cerdo.png" },
   { label: "Caballo", audioSrc: "/audio/animals/caballo.mp3", imageSrc: "/images/animals/caballo.png" },
-  { label: "Oveja", audioSrc: "/audio/animals/oveja.mp3", imageSrc: "/images/animals/oveja.png" },
-  { label: "Leon", audioSrc: "/audio/animals/pato.mp3", imageSrc: "/images/animals/leon.png" },
+  { label: "León", audioSrc: "/audio/animals/leon.mp3", imageSrc: "/images/animals/leon.png" },
+  { label: "Tortuga", audioSrc: "/audio/animals/tortuga.mp3", imageSrc: "/images/animals/tortuga.png" },
   { label: "Mono", audioSrc: "/audio/animals/mono.mp3", imageSrc: "/images/animals/mono.png" },
   { label: "Elefante", audioSrc: "/audio/animals/elefante.mp3", imageSrc: "/images/animals/elefante.png" },
 ];
@@ -36,6 +36,9 @@ const Animals = () => {
         </a>
         <a href="/colors">
           <button className="next-button">Colors</button>
+        </a>
+        <a href="/lesson">
+          <button className="next-button">Numbers</button>
         </a>
       </div>
     </div>

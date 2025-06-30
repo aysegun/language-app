@@ -46,6 +46,9 @@ const Lesson = () => {
       <a href="/colors">
         <button className="next-button">Colors</button>
       </a>
+      <a href="/animals">
+          <button className="next-button">Animals</button>
+        </a>
     </div>
   );
 };

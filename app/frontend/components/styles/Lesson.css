@@ -1,12 +1,12 @@
 .lesson-page {
   text-align: center;
   padding: 2rem;
-  background: linear-gradient(135deg, #e0f7fa, #fce4ec, #f3e5f5);
+  background: #e0f7fa;
   min-height: 100vh;
 }
 
 .lesson-heading {
-  color: #00bbf9;
+  color: #f9c5c7;
   margin-bottom: 1rem;
 }
 
@@ -21,7 +21,7 @@
 .number-button {
   padding: 1rem;
   font-size: 1.5rem;
-  background-color: #00f5d4;
+  background-color: #e9ecce;
   border: none;
   border-radius: 12px;
   width: 80px;
@@ -31,7 +31,7 @@
 
 .back-button {
   margin-top: 2rem;
-  background-color: #9b5de5;
+  background-color: #00f5d4;
   color: #fff;
   padding: 0.75rem 1.5rem;
   border: none;
