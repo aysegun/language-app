@@ -1,0 +1,32 @@
+.animals-page {
+  padding: 2rem;
+  text-align: center;
+}
+
+.animals-heading {
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+  color: #4CAF50;
+}
+
+.animals-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
+  gap: 1rem;
+  justify-items: center;
+}
+
+.back-button, .next-button {
+  margin: 1rem;
+  padding: 0.75rem 1.5rem;
+  font-size: 1rem;
+  border-radius: 10px;
+  border: none;
+  background-color: #FFD700;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.back-button:hover, .next-button:hover {
+  background-color: #FFC300;
+}

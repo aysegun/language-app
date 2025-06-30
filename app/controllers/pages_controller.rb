@@ -7,4 +7,7 @@ class PagesController < ApplicationController
 
   def colors
   end
+
+  def animals
+  end
 end
