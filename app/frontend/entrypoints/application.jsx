@@ -6,17 +6,27 @@ import Home from "../components/Home";
 import Lesson from "../components/Lesson";
 import Colors from "../components/Colors";
 import Animals from "../components/Animals";
+import Footer from "../components/Footer";
 
 const rootElement = document.getElementById("root");
 const root = createRoot(rootElement);
 
+const renderPageWithFooter = (PageComponent) => {
+  root.render(
+    <>
+      <PageComponent />
+      <Footer />
+    </>
+  );
+};
+
 // Simple way to detect page
 if (window.location.pathname === "/lesson") {
-  root.render(<Lesson />);
+  renderPageWithFooter(Lesson);
 }else if (window.location.pathname === "/colors") {
-  root.render(<Colors />);
+  renderPageWithFooter(Colors);
 }else if (window.location.pathname === "/animals") {
-  root.render(<Animals />);
+  renderPageWithFooter(Animals);
 }else {
-  root.render(<Home />);
+  renderPageWithFooter(Home);
 }
