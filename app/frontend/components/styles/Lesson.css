@@ -3,9 +3,14 @@
   padding: 2rem;
   background: #e0f7fa;
   min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 .lesson-heading {
+  font-size: 2rem;
   color: #f9c5c7;
   margin-bottom: 1rem;
 }
@@ -19,15 +24,16 @@
 }
 
 .number-button {
-  padding: 1rem;
-  font-size: 1.5rem;
+  padding: 2rem;
   background-color: #e9ecce;
   border: none;
   border-radius: 12px;
   width: 80px;
   height: 80px;
   cursor: pointer;
+
 }
+
 
 .back-button {
   margin-top: 2rem;

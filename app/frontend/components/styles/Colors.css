@@ -13,7 +13,6 @@
   font-size: 2rem;
   color: #9b5de5; /* same purple as home heading */
   margin-bottom: 1.5rem;
-  font-weight: 600;
 }
 
 .colors-grid {
@@ -38,6 +37,7 @@
   flex: 1 1 120px;
   user-select: none;
 }
+
 
 .audio-button:hover {
   background-color: #00bbf9; /* blue from lesson heading */

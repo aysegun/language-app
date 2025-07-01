@@ -30,7 +30,7 @@ const numbers = [
 const Lesson = () => {
   return (
     <div className="lesson-page">
-      <h2 className="lesson-heading">Spanish Numbers 1–20</h2>
+      <h2 className="lesson-heading">Spanish Numbers</h2>
       <div className="numbers-grid">
         {numbers.map((num) => (
           <AudioButton
@@ -40,15 +40,17 @@ const Lesson = () => {
           />
         ))}
       </div>
-      <a href="/">
-        <button className="back-button">Back to Home</button>
-      </a>
-      <a href="/colors">
-        <button className="next-button">Colors</button>
-      </a>
-      <a href="/animals">
-          <button className="next-button">Animals</button>
+      <div>
+        <a href="/">
+          <button className="back-button">Back to Home</button>
         </a>
+        <a href="/colors">
+          <button className="next-button">Colors</button>
+        </a>
+        <a href="/animals">
+            <button className="next-button">Animals</button>
+        </a>
+      </div>
     </div>
   );
 };

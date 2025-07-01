@@ -9,7 +9,7 @@ const colors = [
   { label: "Verde", audioSrc: "/audio/colors/verde.mp3", imageSrc: "/images/colors/splash_verde.png" },
   { label: "Azul", audioSrc: "/audio/colors/azul.mp3", imageSrc: "/images/colors/splash_azul.png" },
   { label: "Rosa", audioSrc: "/audio/colors/rosa.mp3", imageSrc: "/images/colors/splash_rosa.png" },
-  { label: "Marron", audioSrc: "/audio/colors/marron.mp3", imageSrc: "/images/colors/splash_marron.png" },
+  { label: "Marrón", audioSrc: "/audio/colors/marron.mp3", imageSrc: "/images/colors/splash_marron.png" },
   { label: "Negro", audioSrc: "/audio/colors/negro.mp3", imageSrc: "/images/colors/splash_negro.png" },
   { label: "Gris", audioSrc: "/audio/colors/gris.mp3", imageSrc: "/images/colors/splash_gris.png" },
   { label: "Blanco", audioSrc: "/audio/colors/blanco.mp3", imageSrc: "/images/colors/splash_blanco.png" },
